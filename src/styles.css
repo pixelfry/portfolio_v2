@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url("./assets/fontawesome-all.min.css");
+@import url("./assets/css/fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
 /*
@@ -2525,7 +2525,7 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			background-image: url("images/overlay.png");
+			background-image: url("./assets/css/images/overlay.png");
 			width: 100%;
 			height: 100%;
 			z-index: 1;
@@ -2951,7 +2951,7 @@ input, select, textarea {
 	}
 
 		.goto-next:before {
-			background-image: url("images/arrow.svg");
+			background-image: url("./assets/css/images/arrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -3059,7 +3059,7 @@ input, select, textarea {
 		}
 
 		.spotlight:before {
-			background-image: url("images/overlay.png");
+			background-image: url("./assets/css/images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;
