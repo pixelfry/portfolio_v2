@@ -1,7 +1,12 @@
 
 
 #jesse-image {
-
+  width: inherit;
+  height: inherit;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #3fc8ff;
+  top: -50%;
 }
 
 #one {
