@@ -9,6 +9,10 @@
   top: -50%;
 }
 
+#banner {
+  background-image: url("../../../../public/pexels-apasaric-5686514.jpg");
+}
+
 #one {
   background-image: url("../../../../public/techworking.jpg");
 }
