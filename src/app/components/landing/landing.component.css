@@ -1,11 +1,17 @@
+
+
+#jesse-image {
+
+}
+
 #one {
-  background-image: url("../../../../public/geometric-banner.jpg");
+  background-image: url("../../../../public/techworking.jpg");
 }
 
 #two {
-  background-image: url("../../../../public/pexels-apasaric-2341282.jpg");
+  background-image: url("../../../../public/pexels-luis-gomes-166706-546819.jpg");
 }
 
 #three {
-  background-image: url("../../../../public/pexels-fabio2311-712380.jpg");
+  background-image: url("../../../../public/raspberrypi.jpg");
 }
