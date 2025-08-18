@@ -9,6 +9,10 @@
   top: -50%;
 }
 
+span.icon.solid.alt.major {
+  padding-top: 10px;
+}
+
 #banner {
   background-image: url("../../../../public/pexels-pixabay-260259.jpg");
 }

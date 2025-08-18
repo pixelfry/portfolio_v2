@@ -2525,7 +2525,7 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			background-image: url("assets/css/images/overlay.png");
+/*		background-image: url("assets/css/images/overlay.png"); */
 			width: 100%;
 			height: 100%;
 			z-index: 1;
