@@ -28,3 +28,7 @@ span.icon.solid.alt.major {
 #three {
   background-image: url("../../../../public/raspberrypi.jpg");
 }
+
+.text-center {
+  text-align: center;
+}
