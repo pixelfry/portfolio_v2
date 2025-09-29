@@ -1,1 +1,12 @@
+.centering {
+  flex-direction: column;
+  text-align: center;
+}
 
+.collapsed {
+  overflow-y: hidden;
+}
+
+.uncollapsed {
+  overflow-y: show;
+}

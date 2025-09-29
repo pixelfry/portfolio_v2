@@ -9,12 +9,26 @@
 							<div class="col-4 col-12-medium">
 
 								<!-- Sidebar -->
+                  <section>
+                    <h3 class="centering">Technologies</h3>
+                      @if (mySkills.length > 5){
+                      <ul style="max-height:250px" class="actions centering" [ngClass]="{ 'collapsed': showMore == false, 'uncollapsed': showMore == true }">
+                          @for (skill of mySkills; track skill) {
+                          <li>{{ skill }}</li>
+                          }
+
+                     </ul>
+                     <button (click)="toggleSkills()">Show More</button>
+                      }
+
+                  </section>
+                  <hr />
 									<section id="sidebar">
                     <section>
-                      <h3>Docker</h3>
+                      <h3 class="centering">Docker</h3>
 											<p>These are some of the Docker Containers that I work on and maintain as part of my homelab, including services I host for my family and close friends.</p>
 											<footer>
-												<ul class="actions">
+												<ul class="actions centering">
 													<li><a routerLink="/docker" class="button">Docker Containers</a></li>
 												</ul>
 											</footer>
@@ -23,20 +37,18 @@
 
 										<section>
 											<a href="#" class="image fit"><img src="Hierarchy3D.png" alt="" /></a>
-											<h3>Hierarchy3D</h3>
+											<h3 class="centering">Hierarchy3D</h3>
 											<p>An SPA that displays the Java Collection API as a three dimensional model, allowing for greater visualization of how it is divided and its attributes. The page does not connect to any database and is self contained on the front end. Made with Angular</p>
-										<footer>
-                     <ul class="actions">
+                     <ul class="actions centering">
 											<li><a href="https://github.com/pixelfry/Hierarchy3D" class="button">Learn More</a></li>
                      </ul>
-
-										</footer>
 										</section>
+                    <hr />
                     <section>
-                      <h3>Portfolio Website</h3>
+                      <h3 class="centering">Portfolio Website</h3>
 											<p>View the code that makes this page run! This portfolio website was built with Angular and the code is available to view on my github page.</p>
 											<footer>
-												<ul class="actions">
+												<ul class="actions centering">
 													<li><a href="https://github.com/pixelfry/portfolio_v2" class="button">Learn More</a></li>
 												</ul>
 											</footer>
