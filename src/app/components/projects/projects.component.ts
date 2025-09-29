@@ -11,10 +11,10 @@ import { RouterLink } from '@angular/router';
 export class ProjectsComponent {
 
     toggleSkills() {
-      this.showMore = !this.showMore
+      this.isExpanded = !this.isExpanded
     }
 
-    showMore: boolean = false
+    isExpanded: boolean = false
     mySkills: Array<string> = [
       "Java",
       "Spring",

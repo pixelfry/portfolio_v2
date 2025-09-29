@@ -5,8 +5,12 @@
 
 .collapsed {
   overflow-y: hidden;
+  max-height: 250px;
+  transition: max-height 0.7s ease-in-out;
 }
 
 .uncollapsed {
   overflow-y: show;
+  max-height: 430px;
+  transition: max-height 0.7s ease-in-out;
 }

@@ -12,7 +12,7 @@
                   <section>
                     <h3 class="centering">Technologies</h3>
                       @if (mySkills.length > 5){
-                      <ul style="max-height:250px" class="actions centering" [ngClass]="{ 'collapsed': showMore == false, 'uncollapsed': showMore == true }">
+                      <ul class="actions centering collapsed" [class.uncollapsed]="isExpanded">
                           @for (skill of mySkills; track skill) {
                           <li>{{ skill }}</li>
                           }
